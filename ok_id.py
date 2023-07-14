@@ -132,7 +132,7 @@ logo=("""
 \033[1;37m------------------------------------------------
 \033[1;37m Owner   :            RIEON 
 \033[1;37m Facebook:           RIEON HASAN
-\033[1;37m Version :            1.1
+\033[1;37m Version :            1.2
 \033[1;37m------------------------------------------------ """)
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
